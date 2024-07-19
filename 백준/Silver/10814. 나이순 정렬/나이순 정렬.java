@@ -62,14 +62,5 @@ class Member {
     public int getIdx() {
         return idx;
     }
-
-    @Override
-    public String toString() {
-        return "Member{" +
-                "age=" + age +
-                ", name='" + name + '\'' +
-                ", idx=" + idx +
-                '}';
-    }
 }
 
