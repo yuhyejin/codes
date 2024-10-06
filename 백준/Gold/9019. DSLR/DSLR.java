@@ -31,6 +31,7 @@ public class Main {
 		q.add(a);
 		String command[] = new String[10000];
 		command[a] = "";
+        //dslr은 현재 처리 중인 숫자
 		int dslr, d, s, l, r;
 		while(!q.isEmpty() && command[b] == null) {
 			dslr = q.remove();
